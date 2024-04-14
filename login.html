@@ -1,0 +1,34 @@
+<!DOCTYPEhtml>
+<head>
+	<meta charset="uf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no"/>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" media="screen and (max-width:1000px)" href ="Asset/CSS/phone.css">
+    <title>Login page</title>
+    <link rel="stylesheet" href="Asset/CSS/login1.css">
+</head>
+<body>
+    
+    <div class="container">
+		<div id="image-box">
+		</div>
+		<div id="form-box">
+			  <h1 class="label">User Login</h1>
+		    <form class="login_form" action="home.html" method="post" name="form" onsubmit="return validated()">
+			  <div class="font">Email or Phone</div>
+			  <input autocomplete="off" type="text" name="email">
+			  <div id="email_error">Please fill up your Email or Phone</div>
+			  <div class="font font2">Password</div>
+			<input type="password" name="password">
+			<div id="pass_error">Please fill up your Password</div>
+			<button type="submit">Login</button>
+			<a href="sign_up.html"><button class="sign" type="submit">Sign Up</button></a>
+			
+		    </form>
+		
+		</div>
+	</div>	
+	<script src="Valid Login Form/valid.js"></script>
+</body>
+</html>

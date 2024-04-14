@@ -1,0 +1,42 @@
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  button[type="submit"] {
+    background-color: #efc8a1 ;
+    color: rgb(11, 10, 10);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    font-weight: bold;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #010101 ;
+    color: #ccc;
+  }

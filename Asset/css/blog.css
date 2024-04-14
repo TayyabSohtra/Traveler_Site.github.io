@@ -1,0 +1,47 @@
+main {
+	max-width: 800px;
+	margin: 20px auto;
+	padding: 0 20px;
+}
+
+article {
+	background-color: #fff;
+	margin-bottom: 30px;
+	padding: 20px;
+}
+
+article h2 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+article img {
+	max-width: 100%;
+	margin-bottom: 10px;
+}
+
+article p {
+	font-size: 16px;
+	line-height: 1.5;
+	margin-bottom: 10px;
+}
+
+article ul {
+	list-style: disc;
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+
+article a {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #333;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 4px;
+	margin-top: 10px;
+}
+
+article a:hover {
+	background-color: #555;
+}
